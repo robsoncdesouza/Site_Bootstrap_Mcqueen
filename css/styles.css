@@ -4366,9 +4366,9 @@ textarea.form-control-lg {
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
-  color: #4a1414;
+  color: aliceblue;
   text-align: left;
-  background-color: aliceblue
+  background-color: #4a1414;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -4380,7 +4380,7 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: var(--bs-accordion-active-color);
+  color: #4a1414;
   background-color: var(--bs-accordion-active-bg);
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
@@ -5316,7 +5316,7 @@ textarea.form-control-lg {
   width: 100%;
   color: var(--bs-modal-color);
   pointer-events: auto;
-  background-color: var(--bs-modal-bg);
+  background-color: #ffffff8c;
   background-clip: padding-box;
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
@@ -8094,7 +8094,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #91a5b7 !important;
 }
 
 .text-black-50 {
@@ -10989,6 +10989,7 @@ header.masthead .masthead-heading {
     line-height: normal;
     margin-bottom: 150px;
     color: var(--bs-yellow);
+    text-shadow: #000 2px 3px 2px;
   }
 }
 #portfolio .portfolio-item {

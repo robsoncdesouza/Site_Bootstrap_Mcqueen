@@ -1,5 +1,15 @@
 .footer {
-    width: 300px;
-    align-items: center;
-    text-align: center;
+color: aliceblue;
+}
+
+h2 {
+    text-shadow: #000 2px 3px 2px;
+}
+
+.txtb{
+    color: aliceblue;
+}
+
+.txtv{
+    color: rgb(192, 1, 1);
 }
